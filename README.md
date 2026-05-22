@@ -13,3 +13,15 @@
   1. Offline model & evaluation
   2. Real-time stream scored & stored
   3. Admin UI for triage
+
+### MVOs covered
+  - Enterprise DS/ML/DL MVO
+  - DevOps streaming MVO (reuses DevOps Project B)
+  - Backend & frontend admin UI (for triage)
+  
+### Minimal artifacts to include
+  - Feature engineering notebooks (batch + streaming) with documented math.
+  - Model training notebook + evaluation metrics.
+  - Streaming scoring demo (Kafka + consumer) + serving API.
+  - Tests + CI + Docker + k8s manifests.
+  - Demo README + video.
